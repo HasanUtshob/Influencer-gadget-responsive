@@ -62,7 +62,7 @@
 }
 .hero-content{
     max-width: 27.28rem;
-    margin-top:6.79rem ;
+
 }
 .hero-content > h1{
     font-size: 2.43rem;
@@ -95,7 +95,7 @@
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: bottom left;
-    max-width: 357px;
+    max-width: 22.26rem;
 
 }
 .hero-img > img{
