@@ -14,6 +14,9 @@
         text-align: center;
     }
     .sponsor-logo{
-        flex-direction: column;
+        grid-template-columns: repeat(4,1fr);
+    }
+    .sponsor-section{
+        margin-top: 40px;
     }
 }
