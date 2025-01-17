@@ -26,4 +26,9 @@
     .see{
         text-align: center;
     }
+    .upper-footer{
+        flex-direction: column;
+        gap: 0px;
+        text-align: center;
+    }
 }

@@ -177,3 +177,45 @@ main{
  text-align: right;
  margin-top: 25px;
 }
+
+/* gear section style */
+.upper-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 72px;
+
+}
+.up-contant{
+    max-width: 457px;
+}
+.up-contant > h2{
+    font-size: 28px ;
+    font-weight: var(--font-weight-1);
+    color: rgba(10, 8, 38, 1);
+    margin-bottom: 16px;
+}
+.up-contant > p{
+    font-size: 12px;
+    font-weight: var(--font-weight-1);
+    color: rgba(108, 108, 108, 1);
+    margin-bottom: 16px;
+}
+
+.up-contant > button{
+    font-size: var(--font);
+    font-weight: var(--font-weight-1);
+    background-color: var(--btn-color);
+    color: white;
+    padding: 8px 7px;
+    width: 147px;
+    border: none;
+    cursor: pointer;
+}
+
+.up-img{
+    max-width: 303px;
+}
+.up-img > img{
+    width: 100%;
+}
