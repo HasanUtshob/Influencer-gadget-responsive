@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .nav-menu{
+        flex-direction: column;
+    }
+    .hero-section{
+        flex-direction: column-reverse;
+        gap: 0px;
+    }
+    .hero-img{
+        margin-bottom: 14px;
+        
+    }
+    .hero-content{
+        text-align: center;
+    }
+}
