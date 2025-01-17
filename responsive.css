@@ -27,8 +27,14 @@
         text-align: center;
     }
     .upper-footer{
-        flex-direction: column;
+        flex-direction: column-reverse;
         gap: 0px;
         text-align: center;
+    }
+    .up-contant > p{
+        padding: 5px;
+    }
+    .up-img{
+        margin-top: 10px ;
     }
 }
