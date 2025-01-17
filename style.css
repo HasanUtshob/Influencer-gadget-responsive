@@ -5,10 +5,10 @@
     font-weight: 400;
     font-style: normal;
   }
-  /* *{
+  *{
     margin: 0;
     padding: 0;
-  } */
+  }
 
 :root{
     --primary-color:rgba(58, 58, 58, 1);
@@ -113,4 +113,67 @@ main{
     grid-template-columns: repeat(7, 1fr);
     gap: 25px;
    
+}
+
+/* product item section style */
+.Product{
+    margin-top: 75px;
+}
+.items{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+    
+}
+.item{
+    max-width: 15.42rem;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    
+}
+.Product > h1{
+    font-size: 21px ;
+    font-weight: var(--font-weight-2);
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 30px;
+}
+.item-img{
+    max-width:14.06rem;
+    border-radius: 5px;
+    padding: 10px;
+}
+.item-des{
+    padding: 10px;
+}
+.item-img > img{
+    width: 100%;
+}
+.item-img > h4{
+    font-size: 21px;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+}
+.item-img > h5{
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+}
+.checked{
+    color: orange;
+   
+}
+.item-img > p {
+    font-size: 12px;
+    font-weight: var(--font-weight-2);
+    color: var(--secondry-color);
+}
+.see-more{
+    font-size: 12px;
+    font-weight: var(--font-weight-1);
+    color: var(--btn-color);
+}
+.see{
+ text-align: right;
+ margin-top: 25px;
 }

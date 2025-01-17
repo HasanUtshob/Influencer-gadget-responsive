@@ -19,4 +19,10 @@
     .sponsor-section{
         margin-top: 40px;
     }
+    .items{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .see{
+        text-align: center;
+    }
 }
