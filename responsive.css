@@ -13,4 +13,7 @@
     .hero-content{
         text-align: center;
     }
+    .sponsor-logo{
+        flex-direction: column;
+    }
 }
